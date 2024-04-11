@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: verdana;
+    
+}
+body{
+    background-image: linear-gradient(to top
+  ,#596059 , #364445, #7A6E5E );
+    height: 100%;
+}
+main{
+    color: whitesmoke;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: #596059;
+    box-shadow: 5px 5px 15px #364445;
+    border-radius: 30px;
+   
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #364445;
+}
+
+p{
+    text-align: justify;
+}

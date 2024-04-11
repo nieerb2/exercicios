@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root{
+   --fontes-destaque: 'Bebas nue', cursive, sans-serif;
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   
+}
+
+main{
+   background-color: gray;
+   min-width: 300px;
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+   padding: 20px;
+   font-family: var(--fontes-destaque);
+}
+p{
+   line-height: 2em;
+   text-align: center;
+   
+}
+h2{
+   margin-bottom: 20px;
+}
+.mari{
+    margin-top: 20px;
+}
+
+a{
+   text-decoration: none;
+   text-align: justify;
+  
+}
+a:visited{
+   color: white;
+}
+.redes{
+   border-style: solid;
+  border-radius: 10px;
+   margin: auto;
+   display: block;
+   width: 100px;
+   transition-duration: .5s;
+}
+.redes:hover{
+   background-color: whitesmoke;
+   color: rgba(0, 0, 0, 0.712);
+
+}
+div .git{
+   position: relative;
+   left: -10px;
+}
+.insta{
+   position: relative;
+   left: 2px;
+}
+.YT{
+   position: relative;
+   left: -5px;
+}

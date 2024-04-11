@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: aqua;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+            
+        
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        a:active{
+            color: aquamarine;
+        }
+        .especial::after{
+            content: '⇐' ;
+            color: black;
+        }
+        .especial::before{
+            content: '⇒';
+            color: black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Linsk</h1>
+    <ul>
+        <div> 
+        <li><a href="https://github.com/nieerb2/din-recipes" target="_blank" rel="external">GitHub</a></li>
+    </div>
+        <li><a class="especial" href="https://www.youtube.com/watch?v=CfTx9k9vqd4"
+            target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">site do curso</a></li>
+
+
+    </ul>
+</body>
+</html>
