@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <title>Teste de imagem de fund</title>
+    <style>
+        .quadrado{
+            border: 1px solid black;
+            min-width: 200px;
+            min-height: 200px;
+            display: inline-block;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        div#q1{
+            background-color: red;
+
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, green, yellow);
+        }
+        div#q3{
+            background-image: url(media/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
