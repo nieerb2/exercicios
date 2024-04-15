@@ -95,7 +95,7 @@ div#paper{
     
     background-position:  right bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582);
     padding: 10px;
