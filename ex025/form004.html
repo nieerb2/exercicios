@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </div>
+            <div>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^[({2})[0-9]{4,5}-[0-9]{4}$" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+        <!--estudar mais sobre RegEx-->
+    </form>
+    
+</body>
+</html>
